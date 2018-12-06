@@ -8,5 +8,8 @@ package net.singlex.designpattern.strategypattern.service;
  */
 public interface IStrategy {
 
+    /**
+     * 抽象出来的操作
+     */
     void operate();
 }
